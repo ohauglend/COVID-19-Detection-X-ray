@@ -72,7 +72,9 @@ Grad-CAM is an algorithm developed to more thoroughly explain CNN-based models. 
 gradients of the target class that are getting passed to the final convolutional layer in order to
 model a rough heatmap indicating the most influential and important regions that affected the
 final prediction (Selvaraju et al., 2017).
-![image](https://user-images.githubusercontent.com/64472833/175812392-45d48879-a994-4035-8a70-95cc5ebceba0.png)
+
+<img align="center" img width="189" alt="image" src="https://user-images.githubusercontent.com/64472833/175813042-d72cda1e-288a-49bb-a1d8-b0164ad8c736.png">
+
 Figure 6 presents the heatmaps for all the classes. The instances visualized in the figure are examples when our model was 100% convinced that
 this image belongs to corresponding class. Although these are individual cases, general tendencies for all analyzed medical conditions can be seen.
 For instance, the model is able to not indicate any odd structures and patterns in the Normal case. The COVID-19 example shows signs of bilateral presence, which is proved to be a very common radiological sign (Chamorro et al., 2021). Tuberculosis is often diagnosed by the presence
