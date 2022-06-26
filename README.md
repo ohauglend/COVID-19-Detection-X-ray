@@ -1,7 +1,7 @@
 # COVID-19-Detection-X-ray
 CNN model for classifying instances as either healthy, COVID-19, lung opacity, tuberculosis, or viral pneumonia.
 
-The following code is created for an exam submission in a deep learning course at Copenhagen Business School.
+The attached code is created for an exam submission in a deep learning course at Copenhagen Business School.
 
 There has been a lot of research examining chest X-rays to classify various pulmonary diseases,
 many of which revolve around a three-class classification task, usually COVID-19, healthy and
