@@ -73,7 +73,7 @@ gradients of the target class that are getting passed to the final convolutional
 model a rough heatmap indicating the most influential and important regions that affected the
 final prediction (Selvaraju et al., 2017).
 
-<img align="center" img width="189" alt="image" src="https://user-images.githubusercontent.com/64472833/175813042-d72cda1e-288a-49bb-a1d8-b0164ad8c736.png">
+<img align="center" img width="300" height="700" alt="image" src="https://user-images.githubusercontent.com/64472833/175813042-d72cda1e-288a-49bb-a1d8-b0164ad8c736.png">
 
 Figure 6 presents the heatmaps for all the classes. The instances visualized in the figure are examples when our model was 100% convinced that
 this image belongs to corresponding class. Although these are individual cases, general tendencies for all analyzed medical conditions can be seen.
