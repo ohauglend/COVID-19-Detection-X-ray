@@ -8,8 +8,8 @@ many of which revolve around a three-class classification task, usually COVID-19
 a form of pneumonia that is not COVID-19-related. This paper introduces a multi-label
 classifier that distinguishes between healthy instances, COVID-19, lung opacity, viral
 pneumonia, and tuberculosis infected instances. The model uses ResNet50V2 and
-Xception as bases, model inspiration is drawn from Rahimzadeh and Attar
-(2020). 
+Xception as bases, model inspiration is drawn from Rahimzadeh and Attar (2020). 
+![alt text](https://user-images.githubusercontent.com/64472833/175811616-f4ca2487-b801-4ae2-bfac-9f5298e2b832.png)
 
 
 We trained the model for 150 epochs, and over this period the loss graphs show a steady decline.
@@ -72,7 +72,7 @@ Grad-CAM is an algorithm developed to more thoroughly explain CNN-based models. 
 gradients of the target class that are getting passed to the final convolutional layer in order to
 model a rough heatmap indicating the most influential and important regions that affected the
 final prediction (Selvaraju et al., 2017).
-![alt text](https://user-images.githubusercontent.com/64472833/175812392-45d48879-a994-4035-8a70-95cc5ebceba0.png)
+![image](https://user-images.githubusercontent.com/64472833/175812392-45d48879-a994-4035-8a70-95cc5ebceba0.png)
 Figure 6 presents the heatmaps for all the classes. The instances visualized in the figure are examples when our model was 100% convinced that
 this image belongs to corresponding class. Although these are individual cases, general tendencies for all analyzed medical conditions can be seen.
 For instance, the model is able to not indicate any odd structures and patterns in the Normal case. The COVID-19 example shows signs of bilateral presence, which is proved to be a very common radiological sign (Chamorro et al., 2021). Tuberculosis is often diagnosed by the presence
